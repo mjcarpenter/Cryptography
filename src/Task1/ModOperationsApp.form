@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblAddition" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMultiplication" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSeparator1" max="32767" attributes="0"/>
+                                  <Component id="jSeparator2" max="32767" attributes="0"/>
+                                  <Component id="jSeparator3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblDivision" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtbAdditionPrimary" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblAdditionSymbol" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtbAdditionSecondary" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblAdditionMod" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtbAdditionTertiary" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnAdditionCalculate" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblAdditionResult" min="-2" pref="59" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtbMultiplicationPrimary" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblMultiplicationSymbol" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtbMultiplicationSecondary" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblMultiplicationMod" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtbMultiplicationTertiary" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnMultiplicationCalculate" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblMultiplicationResult" min="-2" pref="59" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtbDivisionPrimary" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDivisionSymbol" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtbDivisionSecondary" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDivisionMod" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtbDivisionTertiary" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnDivisionCalculate" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblDivisionResult" min="-2" pref="59" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                      <Component id="txtbInversePrimary" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Component id="lblDivisionMod1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtbInverseSecondary" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnInverseCalculate" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblInverseResult" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblSquareRoot" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator4" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="txtbSquareRootPrimary" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="lblDivisionMod2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtbSquareRootSecondary" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnSquareRootCalculate" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblSquareRootResult" min="-2" pref="53" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblAddition" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtbAdditionPrimary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAdditionMod" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtbAdditionTertiary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAdditionCalculate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtbAdditionSecondary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAdditionSymbol" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAdditionResult" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblMultiplication" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtbMultiplicationPrimary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMultiplicationMod" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtbMultiplicationTertiary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMultiplicationCalculate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtbMultiplicationSecondary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMultiplicationSymbol" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMultiplicationResult" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblDivision" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtbDivisionPrimary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDivisionMod" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtbDivisionTertiary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnDivisionCalculate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtbDivisionSecondary" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDivisionSymbol" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDivisionResult" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="lblDivisionMod1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtbInverseSecondary" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnInverseCalculate" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblInverseResult" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txtbInversePrimary" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblSquareRoot" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="lblDivisionMod2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtbSquareRootSecondary" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnSquareRootCalculate" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblSquareRootResult" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="txtbSquareRootPrimary" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="43" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblAddition">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Addition:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbAdditionPrimary">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAdditionMod">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mod"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbAdditionTertiary">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAdditionCalculate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdditionCalculateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbAdditionSecondary">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAdditionSymbol">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAdditionResult">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMultiplication">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Multiplication:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbMultiplicationPrimary">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMultiplicationMod">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mod"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbMultiplicationTertiary">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMultiplicationCalculate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMultiplicationCalculateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbMultiplicationSecondary">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMultiplicationSymbol">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMultiplicationResult">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDivision">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Division:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbDivisionPrimary">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDivisionMod">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mod"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbDivisionTertiary">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDivisionCalculate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDivisionCalculateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbDivisionSecondary">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDivisionSymbol">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDivisionResult">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Inverse:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbInversePrimary">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" -1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDivisionMod1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mod"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbInverseSecondary">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnInverseCalculate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnInverseCalculateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInverseResult">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSquareRoot">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Square Root:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbSquareRootPrimary">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDivisionMod2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mod"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbSquareRootSecondary">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSquareRootCalculate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSquareRootCalculateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSquareRootResult">
+    </Component>
+  </SubComponents>
+</Form>
